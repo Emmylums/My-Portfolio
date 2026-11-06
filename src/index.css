@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Accent */
+  --color-gold: oklch(79.58% 0.171 83.42);
+  --color-gold-bright: oklch(85% 0.171 83.42);
+  --color-gold-deep: oklch(58% 0.14 75);
+
+  /* Semantic — overridden in .dark */
+  --color-canvas: oklch(97.5% 0.012 85);
+  --color-surface: oklch(100% 0 0);
+  --color-ink: oklch(25% 0.008 85);
+  --color-ink-soft: oklch(45% 0.015 85);
+  --color-line: oklch(90% 0.008 85);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+.dark {
+  --color-canvas: oklch(18% 0.008 85);
+  --color-surface: oklch(23% 0.008 85);
+  --color-ink: oklch(94% 0.005 85);
+  --color-ink-soft: oklch(66% 0.012 85);
+  --color-line: oklch(32% 0.008 85);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
