@@ -26,7 +26,7 @@ export default function Hero() {
           </span>
 
           <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-tight mb-6 text-ink">
-            Hi, I'm Emmanuel.{" "}
+            Hi, I'm Emmanuel Lumati.{" "}
             <span className="block">
               I build for{" "}
               <em className="italic text-gold-deep dark:text-gold font-light">
