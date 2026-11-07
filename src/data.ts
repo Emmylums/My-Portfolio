@@ -3,7 +3,7 @@
 // ─────────────────────────────────────────────────────────────────────
 import adaKitchen from "./assets/adaskitchen.png";
 import growWithAlerah from "./assets/grow-with-alerah.png";
-// import mobileApp from "./assets/mobile-app.png"; // ← uncomment when file is ready
+import mobileApp from "./assets/mobileApp.png"; // ← uncomment when file is ready
 
 // ─────────────────────────────────────────────────────────────────────
 // Profile
@@ -195,7 +195,7 @@ export const projects: Project[] = [
     tags: ["React Native", "Firebase"],
     role: "Fullstack",
     status: "wip",
-    // image: mobileApp, // ← uncomment when src/assets/mobile-app.png is added
+    image: mobileApp, // ← uncomment when src/assets/mobile-app.png is added
     placeholderIcon: "mobile",
   },
 
